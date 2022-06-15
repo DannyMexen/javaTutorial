@@ -4,8 +4,8 @@ public class BreakDemo {
     public static void main(String[] args) {
         int[] arrayOfInts = {
             32, 87, 3, 589,
-            127, 1076, 2000,
-            8, 622, 12
+            12, 1076, 2000,
+            8, 622, 127
         };
 
         int searchfor = 12;
@@ -16,7 +16,7 @@ public class BreakDemo {
         for (i = 0; i < arrayOfInts.length; i++) {
             if (arrayOfInts[i] == searchfor) {
                 foundIt = true;
-                break;
+                // break;
             }
         }
 
