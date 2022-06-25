@@ -10,4 +10,10 @@ public class MountainBike extends Bicycle{
         super(startCadence, startSpeed, startGear);
         seatHeight = startHeight;
     }    
+
+    // the MountainBike subclass has
+    // one method
+    public void setHeight(int newValue) {
+        seatHeight = newValue;
+    }
 }

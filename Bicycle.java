@@ -2,9 +2,9 @@ public class Bicycle {
 
     // the Bicycle class has
     // three fields
-    public int cadence;
-    public int gear;
-    public int speed;
+    private int cadence;
+    private int gear;
+    private int speed;
 
     // the Bicycle class has
     // one constructor
@@ -14,14 +14,24 @@ public class Bicycle {
         speed = startSpeed;
     }
 
-    // the Bicycle class has
-    // four methods
+    public int getCadence() {
+        return cadence;
+    }
+
     public void setCadence(int newValue) {
         cadence = newValue;
     }
 
+    public int getGear() {
+        return gear;
+    }
+
     public void setGear(int newValue) {
         gear = newValue;
+    }
+
+    public int getSpeed() {
+        return speed;
     }
 
     public void applyBrake(int decrement) {
